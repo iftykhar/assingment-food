@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    color: gray;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -9,15 +10,31 @@ h1 {
     font-weight: 500px;
 }
 
+h2 {
+    font-size: 25px;
+}
+
 .brown-color {
     color: rgb(218, 143, 45);
+}
+
+.banner {
+    margin-top: 60px;
+    padding-top: 20px;
 }
 
 p {
     font-size: 15px;
     text-align: justify;
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.banner-p {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 section {
@@ -32,6 +49,10 @@ section {
     margin-top: 6%;
     margin-left: 4.5%;
     padding-left: 1.5%;
+}
+
+.section-half img {
+    width: 60.5%;
 }
 
 .section-half-2 {
@@ -50,4 +71,9 @@ section {
     padding: 10px 10px;
     background-image: linear-gradient(tomato, brown);
     color: white;
+}
+
+.banner-section {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
 }
