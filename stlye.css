@@ -166,6 +166,35 @@ p {
     text-align: center;
 }
 
+.video {
+    height: 500px;
+    width: 90%;
+    display: flex;
+    margin-left: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-right: 2%;
+    border-radius: 3%;
+    box-shadow: 10px 10px 15px 3px tomato;
+}
+
+.video-half {
+    width: 75%;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+}
+
+.video-text {
+    width: 20%;
+    margin-top: 60px;
+    margin-right: 2%;
+    padding-right: 1%;
+}
+
+.video-text p {
+    text-align: left;
+}
+
 .footer {}
 
 footer {
@@ -178,7 +207,7 @@ footer {
 }
 
 .footer h1 {
-    padding-top: 0px;
+    padding-top: 10px;
     text-align: center;
 }
 
